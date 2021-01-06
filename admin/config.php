@@ -9,7 +9,7 @@ define ('SITE_URL', 'https://savage-nutrition.azurewebsites.net/');
 /* DATABASE CONFIGURATION */
 
 $database = array(
-'host' => 'app-savage-nutrition-mysqldbserver',
+'host' => '51.104.28.67',
 'db' => 'mysqldatabase13199',
 'user' => 'winterseye',
 'pass' => 'Betfred00!'
