@@ -4,24 +4,24 @@
 
 /* URL PROJECT */
 
-define ('SITE_URL', 'YOUR_URL_HERE');
+define ('SITE_URL', 'https://savage-nutrition.azurewebsites.net/');
 
 /* DATABASE CONFIGURATION */
 
 $database = array(
-'host' => 'DATABASE_HOST_HERE',
-'db' => 'DATABASE_NAME_HERE',
-'user' => 'DATABASE_USER_HERE',
-'pass' => 'DATABASE_PASSWORD_HERE'
+'host' => 'app-savage-nutrition-mysqldbserver',
+'db' => 'mysqldatabase13199',
+'user' => 'winterseye',
+'pass' => 'Betfred00!'
 );
 
 $email_config = array(
-'email_address' => 'EMAIL_ADDRESS_HERE',
-'email_password' => 'PASSWORD_HERE',
-'email_subject' => 'EMAIL_SUBJECT_HERE',
-'email_name' => 'EMAIL_NAME_HERE',
-'smtp_host' => 'EMAIL_HOST_HERE',
-'smtp_port' => 'EMAIL_PORT_HERE',
+'email_address' => 'contactus@savagenutrition.co.uk',
+'email_password' => 'Betfred77!',
+'email_subject' => 'No Reply',
+'email_name' => 'Customer Service',
+'smtp_host' => 'mail.savagenutrition.co.uk ',
+'smtp_port' => '465',
 'smtp_encrypt' => 'tls'
 );
 
